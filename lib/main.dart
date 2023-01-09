@@ -94,6 +94,13 @@ class MyApp extends StatelessWidget {
                 fontWeight: FontWeight.bold,
                 color: Colors.white54
               ),),
+              SizedBox(
+                height: 15,
+                width: 150,
+                child: Divider(
+                  color: Colors.teal.shade100,
+                ),
+              ),
               Card(
                 margin: EdgeInsets.symmetric(vertical: 20,horizontal: 10),
                 child: Row(
