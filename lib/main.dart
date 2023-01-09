@@ -96,44 +96,44 @@ class MyApp extends StatelessWidget {
               ),),
               Card(
                 margin: EdgeInsets.symmetric(vertical: 20,horizontal: 10),
-                child: Padding(
-                  padding: EdgeInsets.all(10),
-                  child: Row(
-                    children: [
-                      Icon(
-                        Icons.phone_android_sharp,
-                        size: 28,
-                        color: Colors.teal,
-                      ),
-                      SizedBox(width: 30,),
-                      Text("+91 9488755000",style: TextStyle(
-                        fontSize: 22,
-                        fontWeight: FontWeight.bold
-                      ),)
-                    ],
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.phone_android_sharp,
+                      size: 28,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(width: 30,),
+                    Text("+91 9488755000",style: TextStyle(
+                      fontSize: 22,
+                      fontWeight: FontWeight.bold
+                    ),)
+                  ],
 
-                  ),
                 ),
               ),
-              Card(
+              Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.white,
+                ),
+                padding: EdgeInsets.all(10),
+                width: double.infinity,
                 margin: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
-                child: Padding(
-                  padding: EdgeInsets.all(10),
-                  child: Row(
-                    children: [
-                      Icon(
-                        Icons.mail,
-                        size: 28,
-                        color: Colors.teal,
-                      ),
-                      SizedBox(width: 30,),
-                      Text("aswinsrini1@gmail.com",style: TextStyle(
-                          fontSize: 22,
-                          fontWeight: FontWeight.bold
-                      ),)
-                    ],
-                  //list tile can be used for row
-                  ),
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.mail,
+                      size: 28,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(width: 30,),
+                    Text("aswinsrini1@gmail.com",style: TextStyle(
+                        fontSize: 22,
+                        fontWeight: FontWeight.bold
+                    ),)
+                  ],
+
                 ),
               ),
               Card(
