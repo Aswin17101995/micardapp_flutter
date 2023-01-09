@@ -103,20 +103,23 @@ class MyApp extends StatelessWidget {
               ),
               Card(
                 margin: EdgeInsets.symmetric(vertical: 20,horizontal: 10),
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.phone_android_sharp,
-                      size: 28,
-                      color: Colors.teal,
-                    ),
-                    SizedBox(width: 30,),
-                    Text("+91 9488755000",style: TextStyle(
-                      fontSize: 22,
-                      fontWeight: FontWeight.bold
-                    ),)
-                  ],
+                child: Padding(
+                  padding: EdgeInsets.all(10),
+                  child: Row(
+                    children: [
+                      Icon(
+                        Icons.phone_android_sharp,
+                        size: 28,
+                        color: Colors.teal,
+                      ),
+                      SizedBox(width: 30,),
+                      Text("+91 9488755000",style: TextStyle(
+                        fontSize: 22,
+                        fontWeight: FontWeight.bold
+                      ),)
+                    ],
 
+                  ),
                 ),
               ),
               Container(
