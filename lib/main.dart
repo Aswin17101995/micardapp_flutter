@@ -94,53 +94,61 @@ class MyApp extends StatelessWidget {
                 fontWeight: FontWeight.bold,
                 color: Colors.white54
               ),),
-              Container(
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                  color: Colors.white,
-                ),
-                padding: EdgeInsets.all(10),
-                width: double.infinity,
+              Card(
                 margin: EdgeInsets.symmetric(vertical: 20,horizontal: 10),
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.phone_android_sharp,
-                      size: 28,
-                      color: Colors.teal,
-                    ),
-                    SizedBox(width: 30,),
-                    Text("+91 9488755000",style: TextStyle(
-                      fontSize: 22,
-                      fontWeight: FontWeight.bold
-                    ),)
-                  ],
-
-                ),
-              ),
-              Container(
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                  color: Colors.white,
-                ),
-                padding: EdgeInsets.all(10),
-                width: double.infinity,
-                margin: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.mail,
-                      size: 28,
-                      color: Colors.teal,
-                    ),
-                    SizedBox(width: 30,),
-                    Text("aswinsrini1@gmail.com",style: TextStyle(
+                child: Padding(
+                  padding: EdgeInsets.all(10),
+                  child: Row(
+                    children: [
+                      Icon(
+                        Icons.phone_android_sharp,
+                        size: 28,
+                        color: Colors.teal,
+                      ),
+                      SizedBox(width: 30,),
+                      Text("+91 9488755000",style: TextStyle(
                         fontSize: 22,
                         fontWeight: FontWeight.bold
-                    ),)
-                  ],
+                      ),)
+                    ],
 
+                  ),
                 ),
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
+                child: Padding(
+                  padding: EdgeInsets.all(10),
+                  child: Row(
+                    children: [
+                      Icon(
+                        Icons.mail,
+                        size: 28,
+                        color: Colors.teal,
+                      ),
+                      SizedBox(width: 30,),
+                      Text("aswinsrini1@gmail.com",style: TextStyle(
+                          fontSize: 22,
+                          fontWeight: FontWeight.bold
+                      ),)
+                    ],
+                  //list tile can be used for row
+                  ),
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
+                child:ListTile(
+                  leading: Icon(
+                    Icons.location_on,
+                    size:28,
+                    color: Colors.teal,
+                  ),
+                  title: Text("Perumanallur,India",style: TextStyle(
+                    fontSize: 22,
+                    fontWeight: FontWeight.bold
+                  ),),
+                )
               )
             ],
           ),
