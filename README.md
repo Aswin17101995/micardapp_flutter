@@ -1,5 +1,7 @@
 # mi_card_app
 
+<img width="415" alt="image" src="https://user-images.githubusercontent.com/78901936/211471524-46a70fe2-1881-4641-afdb-b23b7c8249f1.png">
+
 A new Flutter project.
 
 ## Getting Started
