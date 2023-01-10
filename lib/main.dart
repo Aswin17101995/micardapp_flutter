@@ -113,7 +113,7 @@ class MyApp extends StatelessWidget {
                         color: Colors.teal,
                       ),
                       SizedBox(width: 30,),
-                      Text("+91 9488755000",style: TextStyle(
+                      Text("+91 0000000000",style: TextStyle(
                         fontSize: 22,
                         fontWeight: FontWeight.bold
                       ),)
